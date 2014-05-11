@@ -1,0 +1,79 @@
+body{
+  background: url(../imagens/fundo_asfalto.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;;
+
+}
+h1{
+  text-align: center;
+  color: white;
+}/*
+div{
+	border:solid;
+}*/
+.conteudo{
+	float: right;
+	width: 80%;
+}
+.logotipos{
+	width: 15%;
+	float: left;
+}
+.marcas{
+	width: 80%;
+	height: 80%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.form-inline{
+	margin-top: 1.4%;
+	float:right;
+	margin-right: 1%;
+}
+.form-inline input{
+	border-radius: 32px 32px 32px 32px;
+}
+.titulo{
+	margin-top: 10% ;
+}
+.titulo{
+	font-size: 270%;
+	color: white;
+	text-align: center;
+}
+.sprites{
+	height: 60px;
+	width: 70%;
+	float:right;
+}
+.facebook{
+	background: url('../imagens/sprite_redes_sociais.png') -36px 18px no-repeat;
+	float: right;
+	height: 61px;
+	width: 61px;
+	background-size: 1000% 1000%;
+}
+.twiter{
+	background: url('../imagens/sprite_redes_sociais.png') 15px 18px no-repeat;
+	float: right;
+	height: 61px;
+	width: 61px;
+	background-size: 1000% 1000%;
+}
+.linkedin{
+	background: url('../imagens/sprite_redes_sociais.png') -36px -45px no-repeat;
+	float: right;
+	height: 61px;
+	width: 61px;
+	background-size: 1000% 1000%;
+}
+.youtube{
+	background: url('../imagens/sprite_redes_sociais.png') 15px -45px no-repeat;
+	float: right;
+	height: 61px;
+	width: 61px;
+	background-size: 1000% 1000%;
+}
