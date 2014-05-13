@@ -77,3 +77,19 @@ div{
 	width: 61px;
 	background-size: 1000% 1000%;
 }
+.carroussel{
+	width: 70%;
+	margin: 0 auto;
+}
+.textos{
+	border:solid;
+	width: 99%;
+	border-color: red;
+}
+.destaques,.tendencias,.tecnologia{
+	margin: 0 auto;
+	border :solid blue;
+	width: 32%;
+	height: 10px;
+	display: -webkit-inline-box;
+}
