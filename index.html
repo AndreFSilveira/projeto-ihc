@@ -6,18 +6,50 @@
 		<link rel="stylesheet" href="skin/css/bootstrap.css">
 		<link rel="stylesheet" href="skin/css/bootstrap-theme.css">
 		<link rel="stylesheet" href="skin/css/custom.css">
+    <link rel="stylesheet" href="skin/css/fancy-home.css">
 		<script type="text/javascript" src="skin/js/jquery_1_11_0.min.js"></script>
       <script type="text/javascript" src="skin/js/bootstrap.js"></script>
+      <script type="text/javascript">
+  $(document).ready(function () {
+    $('#close').click(function(){
+      $('.boas-vindas').hide(150);
+      $('#fancybox').hide(700);
+    });
+    
+  });
+</script>
 	</head>
 <body>
+
+<div id="fancybox">
+  <span id="title">Cadastre-se Em Nossa Newsletter</span>
+  <div class="fancy-container">
+    <h2>Cadastro</h2>
+    <form action="cadastro.html" method="POST">
+      <label>Email:</label><br>
+      <input type="email" name="email" placeholder="Insira seu e-mail"><br>
+      <label>Nome:</label><br>
+      <input type="text" name="name" placeholder="Insira seu Nome"><br>
+      <input type="submit" class="success" value="Cadastrar"><br>
+      <input type="button" href="#" type="submit" id="close" class="danger" value="Agora não">
+    </form>
+  </div>
+    
+</div>
+
+
   <div class="logotipos">
      <div class="logos">
-          <div class="bmw"><img class="marcas" src="skin/imagens/BMW.png"></div>
-          <div class="porsche"><img class="marcas" src="skin/imagens/porsche.png"></div>
-          <div class="land_hover"><img class="marcas" src="skin/imagens/land_rover.png"></div>
-          <div class="ferrari"><img class="marcas" src="skin/imagens/ferrari.png"></div>
-          <div class="lamborghini"><img class="marcas" src="skin/imagens/Lamborghini.png"></div>
-          <div class="mercedes"><img class="marcas" src="skin/imagens/mercedes.png"></div>
+          <div class="bmw"><a href="audi.html"><img class="marcas" src="skin/imagens/BMW.png"></a></div>
+          <div class="porsche"><a href="audi.html"><img class="marcas" src="skin/imagens/porsche.png"></a></div>
+          <div class="land_hover"><a href="audi.html"><img class="marcas" src="skin/imagens/land_rover.png"></a></div>
+          <div class="ferrari"><a href="audi.html"><img class="marcas" src="skin/imagens/ferrari.png"></a></div>
+          <div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Lamborghini.png"></a></div>
+          <div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/mercedes.png"></a></div>
+          <div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Jaguar_Logo.png"></a></div>
+          <div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/logo-chery.png"></a></div>
+          <div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Peugeot_logo.png"></a></div>
+          <div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/astonmartin.png"></a></div>
       </div>
   </div>  
   <div class='conteudo'>
@@ -47,10 +79,10 @@
         </div>
       </form>
       <div class="sprites">
-          <a href="#"><div class="facebook" title="Facebook"></div></a>
-          <a href="#"><div class="twiter" title="Twiter"></div></a>
-          <a href="#"><div class="linkedin" title="Linkedin"></div></a>
-          <a href="#"><div class="youtube" title="Yout"></div></a>
+          <div class="facebook" title="Facebook"></div>
+          <div class="twiter" title="Twiter"></div>
+          <div class="linkedin" title="Linkedin"></div>
+          <div class="youtube" title="Yout"></div>
       </div>
       <div class="titulo"><span>Salão de Genebra</span></div>
 
@@ -181,52 +213,82 @@
              <h1>Escolha o Melhor</h1>
              <ul>
                <li>
-                  <img src="skin/imagens/BMW.png" width="50px" height="50px"><span style="color:white;">Bmw m3</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/BMW.png" width="50px" height="50px">
+                     <span class="carro">&nbsp;&nbsp;Bmw m3</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                  </div>
                </li>
                <li>
-                  <img src="skin/imagens/ferrari.png" width="50px" height="50px"><span style="color:white;">Ferrari Enzo</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/ferrari.png" width="50px" height="50px">
+                     <span class="carro">&nbsp;&nbsp;Ferrari Enzo</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                  </div>
                </li>
                <li>
-                  <img src="skin/imagens/land_rover.png" width="50px" height="50px"><span style="color:white;">Land Hover Evoke</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/land_rover.png" width="50px" height="50px">
+                     <span class="carro">&nbsp;&nbsp;Land Hover Evoke</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                  </div>
                </li>
                <li>
-                  <img src="skin/imagens/mercedes.png" width="50px" height="50px"><span style="color:white;">Mercedes Compressor</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/mercedes.png" width="50px" height="50px">
+                     <span class="carro">&nbsp;&nbsp;Mercedes Compressor</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                  </div>
                </li>               
                <li>
-                  <img src="skin/imagens/porsche.png" width="50px" height="50px"><span style="color:white;">Porsche Caiman</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/porsche.png" width="50px" height="50px">
+                     <span class="carro">&nbsp;&nbsp;Porsche Caiman</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                  </div>
                </li>
                 <li>
-                  <img src="skin/imagens/Lamborghini.png" width="50px" height="50px"><span style="color:white;">Lamborghini Galardo</span>
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
-                  <img src="skin/imagens/nostar.png" width="25px" height="25px">
+                  <div class="marca-modelo">
+                     <img src="skin/imagens/Lamborghini.png" width="50px" height="50px">   
+                     <span class="carro">&nbsp;&nbsp;Lamborghini Galard</span>
+                  </div>
+                  <div class="stars">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/star.png" width="25px" height="25px">
+                     <img class="star" src="skin/imagens/nostar.png" width="25px" height="25px">
+                  </div>
                </li>
              </ul>
            </div>
@@ -236,6 +298,13 @@
               <!-- <video src="https://www.youtube.com/watch?v=vbv5eqMRZ7Q" autobuffer autoloop loop controls></video> -->
            </div>
          </div>
+         <div class="marca">
+           <img src="skin/imagens/baner_lamborghini.jpg">
+         </div>
+         <div class="evento">
+            <img src="skin/imagens/proximo.jpg">
+         </div>
       </div><!-- fim do conteudo -->
+
 	</body>
 </html>

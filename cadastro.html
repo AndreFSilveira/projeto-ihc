@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cadastro</title>
+	<link rel="stylesheet" href="skin/css/bootstrap.css">
+	<link rel="stylesheet" href="skin/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="skin/css/custom.css">
+	<script type="text/javascript" src="skin/js/jquery_1_11_0.min.js"></script>
+	<script type="text/javascript" src="skin/js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="logotipos">
+		<div class="logos">
+			<div class="bmw"><a href="audi.html"><img class="marcas" src="skin/imagens/BMW.png"></a></div>
+			<div class="porsche"><a href="audi.html"><img class="marcas" src="skin/imagens/porsche.png"></a></div>
+			<div class="land_hover"><a href="audi.html"><img class="marcas" src="skin/imagens/land_rover.png"></a></div>
+			<div class="ferrari"><a href="audi.html"><img class="marcas" src="skin/imagens/ferrari.png"></a></div>
+			<div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Lamborghini.png"></a></div>
+			<div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/mercedes.png"></a></div>
+			<div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Jaguar_Logo.png"></a></div>
+			<div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/logo-chery.png"></a></div>
+			<div class="lamborghini"><a href="audi.html"><img class="marcas" src="skin/imagens/Peugeot_logo.png"></a></div>
+			<div class="mercedes"><a href="audi.html"><img class="marcas" src="skin/imagens/astonmartin.png"></a></div>
+		</div>
+	</div>  
+	<div class='conteudo'>
+		<div class='navbar-brand'>
+			<div class="btn-group btn-group-justified">
+				<div class="btn-group">
+					<a class="btn btn-default">Genebra</a>
+				</div>
+				<div class="btn-group">
+					<a class="btn btn-default">Detroid</a>
+				</div>
+				<div class="btn-group">
+					<a class="btn btn-default">Frankfurt</a>
+				</div>
+				<div class="btn-group">
+					<a class="btn btn-default">Sema Show</a>
+				</div>
+				<div class="btn-group">
+					<a class="btn btn-default">São Paulo</a>
+				</div>
+			</div> 
+		</div>
+		<form class="form-inline" role="form">
+			<div class="form-group has-search has-feedback">
+				<input type="text" class="form-control" id="inputSuccess4" placeholder="pesquisar">
+				<span class="glyphicon glyphicon-search form-control-feedback"></span>
+			</div>
+		</form>
+		<div class="sprites">
+			<div class="facebook" title="Facebook"></div>
+			<div class="twiter" title="Twiter"></div>
+			<div class="linkedin" title="Linkedin"></div>
+			<div class="youtube" title="Yout"></div>
+		</div>
+		<div class="titulo"><span>Cadastro</span></div>
+		<div class="formulario">
+			<form action="#" method="post">
+				<h1>Inscrição para Newsletter</h1><br>
+				<fieldset>
+					<legend>Dados Pessoais</legend>
+
+					<div>
+						<label>Nome Completo: *</label><br>
+						<input type="text" name="nome" class="my-input total" id="name" tabindex="1" placeholder="Seu Nome" />
+					</div>
+
+					<div>
+						<label>Idade: *</label><br>
+						<input type="number" class="my-input" name="idade" placeholder="Sua Idade" tabindex="2"/><br>
+
+						<label>Nascimento: *</label><br>
+						<input type="date" class="my-input" name="nascimento" tabindex="3"/>
+					</div>
+
+					<div>			
+						<label for="radio-choice-1">Sexo: *</label><br>
+						<select name="sexo" class="my-input">
+							<option value="M">Masculino</option>
+							<option value="F">Feminino</option>
+						</select>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<legend>Contato</legend>
+					<div>
+						<label>Email: *</label><br>
+						<input type="email" name="email" placeholder="Seu Email" class="my-input total" value=""><br>
+
+						<label>Telefone: </label><br>
+						<input type="number" name="telefone" placeholder="Seu Telefone" class="my-input" value="">
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Endereço</legend>
+					<div>
+						<label>Logradouro: *</label><br>
+						<input type="text" name="endereco" class="my-input total" placeholder="Seu Endereço" tabindex="6"><br>
+
+						<label>Estado: *</label><br>
+						<input type="text" class="my-input total" name="Bairro" placeholder="Seu Estado"><br>
+
+						<label>Cidade: *</label><br>
+						<input type="text" class="my-input total" name="cidade" placeholder="Sua Cidade"><br>
+
+						<label>Bairro: *</label><br>
+						<input type="text" class="my-input total" name="bairoo" placeholder="Seu Bairro"><br>
+
+						<label>Numero: *</label><br>
+						<input type="number" class="my-input" name="numero" placeholder="Seu Numero"><br>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend>Dados Complementares</legend>
+				
+				<div>
+					<label>Deixe seu Comentario:</label><br>
+					<textarea name="textarea" id="contato" class="my-textarea" placeholder="Insira aqui suas duvidas, reclamações ou sugestões"></textarea>
+				</div>
+				
+				<div>
+					<label>Como voce conheceu nosso site:</label><br>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="revista" /><span class="check">Revista</span>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="jornal" /><span class="check">Jornal</span>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="tv" /><span class="check">Televisão</span>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="radio" /><span class="check">Radio</span>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="internet" /><span class="check">Internet</span>
+					<input type="checkbox" name="pesquisa" id="pesquisa" value="outros" /><span class="check">Outros</span>
+				</div>
+
+				<div>
+				</fieldset>
+					<div class="submit">
+						<input class="sub-form" type="submit" value="Submit" />
+					</div>
+				</div>
+			</form>			
+		</div>
+	</div><!-- fim do conteudo -->
+</body>
+</html>
