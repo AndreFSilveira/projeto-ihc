@@ -113,7 +113,7 @@ div{
 .destaques h2,.tendencias h2,.tecnologia h2{
 	color : black;
 }
-.destaques,.tendencias,.tecnologia span p{
+.destaques,.tendencias,.tecnologia span{
 	color: black;
 	font-size: 1.2em;
 }
@@ -153,7 +153,8 @@ div{
 	width: 450px;
 }
 iframe{
-	width: 500px;	
+	width: 500px;
+	border:none;	
 }
 
 @media (max-width: 940px) {
@@ -174,6 +175,7 @@ iframe{
 	}	
 }
 .stars{width: 200px}
+.star{width: 25px; height:25px;}
 .row{width: 95%; margin: 0}
 .galeria>.row{width: 100%}
 .item{margin-bottom: 20px}
@@ -184,7 +186,6 @@ iframe{
 .descricao>.disc{color: white;font-weight: bold;font-size: initial;}
 .titulo { display: inline-block;margin-bottom: 20px ; width: 100%;margin-top:0;}
 .has-feedback .form-control-feedback{top:0 !important;}
-
 #fancybox{width: 100%;text-align: center; height:100%; z-index:20; position:fixed; top: 0px; left: 0px; background-color: rgba(0, 0, 0, 0.89);}
 #title{color: white; font-size: 45px; overflow: hidden; text-align: center;width: 100%}
 .bt_menu>span{transition: all 0.3s linear ;}
@@ -204,3 +205,4 @@ label{color: black; text-shadow: 1px 1px 3px white;}
 .submit{margin-top: 30px; height: 80px; text-align: center;}
 .sub-form{height: 50px;width: 50%;font-size: 20px;font-weight: bold; text-shadow: 2px 2px 4px black;margin: 0 auto; color: white; background: rgba(0, 128, 0, 0.6); border-radius: 4px; border: 2px solid green;}
 .sub-form:hover{background: rgba(57, 92, 57, 1); color: black; text-shadow: 1px 1px 3px white;}
+.logos-votos{width: 50px; height: 50px;}
